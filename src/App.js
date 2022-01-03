@@ -1,25 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect, useState } from 'react';
+import { fetchEmojiList } from './emojiList';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [emojiList, setEmojiList] = useState();
+  useEffect(() => {
+    fetchEmojiList().then(setEmojiList);
+  }, [setEmojiList]);
+
+  if (!emojiList) {
+    return <h1>Loading Emoji List</h1>
+  }
+
+  return <div className="App">{JSON.stringify(emojiList)}</div>;
 }
 
 export default App;
