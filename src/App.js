@@ -95,23 +95,30 @@ function App() {
         <p>
           The NZ COVID Tracer app is Free and Open Source Software,
           (specifically{' '}
-          <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">AGPL</a>)
-          meaning that anyone can download the source code and make their own
+          <a
+            href="https://www.gnu.org/licenses/agpl-3.0.en.html"
+            target="_blank"
+            rel="noreferrer"
+          >
+            AGPL
+          </a>
+          ) meaning that anyone can download the source code and make their own
           version of the app. Being the curious man I am, I (Ben) decided to
           have a look and see how it works. As I skimmed the list of files, one
           folder named "easeterEgg" caught my eye. The term "Easter Egg" refers
-          to a hidden feature, often put there by the developers to have a bit of fun. Intrigued, I dug deeper and found that if you
-          modify the QR Code slightly, spelling "NZCOVIDTRACER" backwards
-          ("RECARTDIVOCZN"), then you could make the app display emojis. I'm not
-          sure if the Ministry of Health was keeping this secret for an event,
-          but nethertheless I found it and am sharing it with you now.
+          to a hidden feature, often put there by the developers to have a bit
+          of fun. Intrigued, I dug deeper and found that if you modify the QR
+          Code slightly, spelling "NZCOVIDTRACER" backwards ("RECARTDIVOCZN"),
+          then you could make the app display emojis. I'm not sure if the
+          Ministry of Health was keeping this secret for an event, but
+          nethertheless I found it and am sharing it with you now.
         </p>
       </section>
       <footer>
         <h1>Links</h1>
         <p>
           {LINKS.map(([href, title]) => (
-            <a href={href} target="_blank">
+            <a href={href} target="_blank" rel="noreferrer">
               {title}
             </a>
           ))}
