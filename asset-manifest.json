@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.35079e08.css",
-    "main.js": "/static/js/main.942426b9.js",
-    "static/js/787.b83faec2.chunk.js": "/static/js/787.b83faec2.chunk.js",
-    "index.html": "/index.html",
-    "main.35079e08.css.map": "/static/css/main.35079e08.css.map",
-    "main.942426b9.js.map": "/static/js/main.942426b9.js.map",
-    "787.b83faec2.chunk.js.map": "/static/js/787.b83faec2.chunk.js.map"
+    "main.css": "/nzcovidtracer-suprise/static/css/main.35079e08.css",
+    "main.js": "/nzcovidtracer-suprise/static/js/main.6e4da4d5.js",
+    "static/js/787.b83faec2.chunk.js": "/nzcovidtracer-suprise/static/js/787.b83faec2.chunk.js",
+    "index.html": "/nzcovidtracer-suprise/index.html",
+    "main.35079e08.css.map": "/nzcovidtracer-suprise/static/css/main.35079e08.css.map",
+    "main.6e4da4d5.js.map": "/nzcovidtracer-suprise/static/js/main.6e4da4d5.js.map",
+    "787.b83faec2.chunk.js.map": "/nzcovidtracer-suprise/static/js/787.b83faec2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35079e08.css",
-    "static/js/main.942426b9.js"
+    "static/js/main.6e4da4d5.js"
   ]
 }
