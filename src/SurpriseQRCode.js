@@ -10,7 +10,7 @@ function encodeUnicode(str) {
   return `"${result}"`;
 }
 
-function encodeSuprise(emoji) {
+function encodeSurprise(emoji) {
   // JSON constructed manually to allow escaping unicode emoji
   const json = `{"data":[${emoji.map(encodeUnicode).join(',')}]}`;
   console.log(json);
@@ -21,8 +21,8 @@ function encodeSuprise(emoji) {
   return code;
 }
 
-export function SupriseQRCode({ emoji }) {
-  const encoded = useMemo(() => encodeSuprise(emoji), [emoji]);
+export function SurpriseQRCode({ emoji }) {
+  const encoded = useMemo(() => encodeSurprise(emoji), [emoji]);
 
   if (emoji.length === 0) {
     return <p>Please select atleast one emoji.</p>;

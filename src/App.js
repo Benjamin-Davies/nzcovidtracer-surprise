@@ -1,12 +1,12 @@
 import './App.css';
 import { useCallback, useEffect, useState } from 'react';
 import { fetchEmojiList } from './emojiList';
-import { SupriseQRCode } from './SupriseQRCode';
+import { SurpriseQRCode } from './SurpriseQRCode';
 
 const LINKS = [
   [
-    'https://github.com/Benjamin-Davies/nzcovidtracer-suprise',
-    'Suprise Generator Code',
+    'https://github.com/Benjamin-Davies/nzcovidtracer-surprise',
+    'Surprise Generator Code',
   ],
   ['https://github.com/minhealthnz/nzcovidtracer-app', 'NZ COVID Tracer Code'],
   [
@@ -44,8 +44,8 @@ function App() {
   return (
     <div className="App">
       <header>
-        <h1>NZ COVID Tracer Suprise</h1>
-        <h2>Create your own emoji suprise!</h2>
+        <h1>NZ COVID Tracer Surprise</h1>
+        <h2>Create your own emoji surprise!</h2>
         <p>
           This project is not created by or affiliated with the Ministy of
           Health or the New Zealand Government.
@@ -88,7 +88,7 @@ function App() {
       <section>
         <h1>Your QR Code</h1>
         <p>Right-click or tap-and-hold to save.</p>
-        <SupriseQRCode emoji={selectedEmoji} />
+        <SurpriseQRCode emoji={selectedEmoji} />
       </section>
       <section>
         <h1>Background</h1>

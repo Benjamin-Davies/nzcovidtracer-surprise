@@ -1,4 +1,4 @@
-# NZ COVID Tracer - Suprise Generator
+# NZ COVID Tracer - Surprise Generator
 
 This project exists to allow users to use the little known "Easter Egg" feature from the NZ COVID Tracer app. It is not created by or affiliated with the Ministy of Health or the New Zealand Government.
 
