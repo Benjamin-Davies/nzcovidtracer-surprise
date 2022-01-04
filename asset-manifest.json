@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nzcovidtracer-suprise/static/css/main.35079e08.css",
+    "main.css": "/nzcovidtracer-suprise/static/css/main.da857f59.css",
     "main.js": "/nzcovidtracer-suprise/static/js/main.6e4da4d5.js",
     "static/js/787.b83faec2.chunk.js": "/nzcovidtracer-suprise/static/js/787.b83faec2.chunk.js",
     "index.html": "/nzcovidtracer-suprise/index.html",
-    "main.35079e08.css.map": "/nzcovidtracer-suprise/static/css/main.35079e08.css.map",
+    "main.da857f59.css.map": "/nzcovidtracer-suprise/static/css/main.da857f59.css.map",
     "main.6e4da4d5.js.map": "/nzcovidtracer-suprise/static/js/main.6e4da4d5.js.map",
     "787.b83faec2.chunk.js.map": "/nzcovidtracer-suprise/static/js/787.b83faec2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.35079e08.css",
+    "static/css/main.da857f59.css",
     "static/js/main.6e4da4d5.js"
   ]
 }
